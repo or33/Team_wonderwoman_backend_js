@@ -1,0 +1,52 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0f0c29;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+h1 {
+  position: relative;
+  /* left: 43%; */
+  transform: translate(43%, 700%);
+  font-family: 'Monospace', sans-serif;
+  color: white;
+}
+
+.textBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  /* opacity: 0.4; */
+  height: 40px;
+  width: 600px;
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search {
+  color: white;
+  float: right;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ display: flex;
+ background: none;
+ justify-content: center;
+ align-items: center;
+
+}
+.text {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  color: white;
+  font-size: 16px;
+  line-height: 44px;
+  width: 245px;
+}
